@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: 30,
     flexFlow: 'row wrap',
   },
-  cityButton: {
+  buttonStyle2: {
     marginLeft: 5,
     fontSize: 'calc((2.9 - 1) * 1.3vw + 1rem)',
   },
@@ -33,9 +33,6 @@ const useStyles = makeStyles((theme) => ({
       display: 'none',
     },
   },
-  dropDownMenuItem: {
-    fontSize: '5vmin',
-  },
 }))
 
 export default function TopNavBar(): JSX.Element {
@@ -51,7 +48,7 @@ export default function TopNavBar(): JSX.Element {
         </Link>
         <div className={classes.navBarButtonRow}>
           <NavLink to="/" className={classes.navLinkRow}>
-            <Button className={classes.cityButton} color="secondary">
+            <Button className={classes.buttonStyle2} color="secondary">
               Button2
             </Button>
           </NavLink>
