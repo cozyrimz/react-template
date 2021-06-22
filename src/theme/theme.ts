@@ -11,12 +11,12 @@ export const theme = createMuiTheme({
       main: black,
     },
   },
-  typography: {
-    // fontFamily: ['Bebas Neue', 'cursive'].join(','),
-    htmlFontSize: 16,
-    fontSize: 14,
-    fontWeightLight: 300,
-    fontWeightRegular: 400,
-    fontWeightMedium: 500,
-  },
+  //   typography: {
+  //     // fontFamily: ['Bebas Neue', 'cursive'].join(','),
+  //     htmlFontSize: 16,
+  //     fontSize: 14,
+  //     fontWeightLight: 300,
+  //     fontWeightRegular: 400,
+  //     fontWeightMedium: 500,
+  //   },
 })
