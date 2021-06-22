@@ -1,9 +1,9 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
-import { NavLink, Link } from 'react-router-dom';
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import AppBar from '@material-ui/core/AppBar'
+import Toolbar from '@material-ui/core/Toolbar'
+import Button from '@material-ui/core/Button'
+import { NavLink, Link } from 'react-router-dom'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,27 +36,27 @@ const useStyles = makeStyles((theme) => ({
   dropDownMenuItem: {
     fontSize: '5vmin',
   },
-}));
+}))
 
 export default function TopNavBar(): JSX.Element {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
-    <AppBar position='static' className={classes.root}>
+    <AppBar position="static" className={classes.root}>
       <Toolbar className={classes.toolbar}>
-        <Link exact to='/' className={classes.titleLink}>
-          <Button className={classes.titleLink} color='secondary'>
+        <Link to="/" className={classes.titleLink}>
+          <Button className={classes.titleLink} color="secondary">
             Button 1
           </Button>
         </Link>
         <div className={classes.navBarButtonRow}>
-          <NavLink to='/' className={classes.navLinkRow}>
-            <Button className={classes.cityButton} color='secondary'>
+          <NavLink to="/" className={classes.navLinkRow}>
+            <Button className={classes.cityButton} color="secondary">
               Button2
             </Button>
           </NavLink>
         </div>
       </Toolbar>
     </AppBar>
-  );
+  )
 }
