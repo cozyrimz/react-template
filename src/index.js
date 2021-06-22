@@ -1,17 +1,17 @@
-import React from 'react';
-import { render } from 'react-dom';
-import './index.scss';
-import MainRouter from './router/MainRouter';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { polyfill } from 'es6-promise';
-polyfill();
+import React from 'react'
+import { render } from 'react-dom'
+import './index.scss'
+import MainRouter from './router/MainRouter'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { polyfill } from 'es6-promise'
+polyfill()
 
 const App = () => {
   return (
     <Router>
       <MainRouter />
     </Router>
-  );
-};
+  )
+}
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'))
