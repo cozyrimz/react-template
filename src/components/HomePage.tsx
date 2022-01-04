@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme: Theme) =>
       letterSpacing: '0.035em',
       lineHeight: '1.3em',
     },
-  })
+  }),
 )
 
 export default function Homepage(): JSX.Element {
@@ -59,7 +59,7 @@ export default function Homepage(): JSX.Element {
 
   return (
     <div className={classes.mainBody}>
-      <Typography variant="h1" className={classes.secondTitle}>
+      <Typography variant='h1' className={classes.secondTitle}>
         React Template Title!
       </Typography>
       <Paper className={classes.mainBodyPaper}>Main Body</Paper>

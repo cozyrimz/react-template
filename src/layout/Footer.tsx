@@ -11,14 +11,14 @@ const useStyles = makeStyles((theme: Theme) =>
       color: '#fff',
       padding: 40,
     },
-  })
+  }),
 )
 
 export default function Footer(): JSX.Element {
   const classes = useStyles()
 
   return (
-    <Typography variant="h5" className={classes.footer}>
+    <Typography variant='h5' className={classes.footer}>
       This site is not affiliated with or endorsed by ...
       <br />
       This site is for informational purposes only.

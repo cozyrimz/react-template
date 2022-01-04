@@ -13,7 +13,7 @@ export default function MainRouter(): JSX.Element {
     <ThemeProvider theme={theme}>
       <TopNavBar />
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path='/' component={HomePage} />
       </Switch>
       <Footer />
     </ThemeProvider>

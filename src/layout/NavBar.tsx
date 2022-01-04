@@ -39,16 +39,16 @@ export default function TopNavBar(): JSX.Element {
   const classes = useStyles()
 
   return (
-    <AppBar position="static" className={classes.root}>
+    <AppBar position='static' className={classes.root}>
       <Toolbar className={classes.toolbar}>
-        <Link to="/" className={classes.titleLink}>
-          <Button className={classes.titleLink} color="secondary">
+        <Link to='/' className={classes.titleLink}>
+          <Button className={classes.titleLink} color='secondary'>
             Button 1
           </Button>
         </Link>
         <div className={classes.navBarButtonRow}>
-          <NavLink to="/" className={classes.navLinkRow}>
-            <Button className={classes.buttonStyle2} color="secondary">
+          <NavLink to='/' className={classes.navLinkRow}>
+            <Button className={classes.buttonStyle2} color='secondary'>
               Button2
             </Button>
           </NavLink>
