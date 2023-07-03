@@ -42,7 +42,7 @@
     "react": "^16.8.0 || ^17.0.0",
     "react-autosuggest": "^10.1.0",
     "react-dom": "^16.8.0 || ^17.0.0",
-    "react-hot-toast": "^2.1.0",
+    "react-hot-toast": "^2.4.1",
     "react-query": "^3.19.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
