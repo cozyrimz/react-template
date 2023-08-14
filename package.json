@@ -29,7 +29,7 @@
     "@material-ui/pickers": "^3.3.10",
     "autosuggest-highlight": "^3.3.4",
     "axios": "^0.21.1",
-    "clsx": "^1.1.1",
+    "clsx": "^2.0.0",
     "date-fns": "^2.30.0",
     "dayjs": "^1.10.5",
     "dotenv": "^10.0.0",
