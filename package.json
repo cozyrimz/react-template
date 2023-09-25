@@ -45,7 +45,7 @@
     "react-hot-toast": "^2.4.1",
     "react-query": "^3.39.3",
     "react-router": "^6.14.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "4.0.3",
     "react-select": "^4.3.0",
     "react-toast-notifications": "^2.5.1",
