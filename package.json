@@ -62,7 +62,7 @@
     "@parcel/transformer-svgo": "^2.0.0-nightly.1739",
     "@parcel/transformer-typescript-tsc": "^2.9.3",
     "@parcel/transformer-webmanifest": "2.0.0-rc.0",
-    "@types/jest": "^27.0.2",
+    "@types/jest": "^29.5.5",
     "@types/node": "^20.6.2",
     "@types/node-sass": "^4.11.2",
     "@types/react": "^17.0.24",
