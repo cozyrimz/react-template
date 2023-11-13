@@ -52,7 +52,7 @@
     "web-vitals": "^3.5.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.2",
+    "@babel/core": "^7.23.3",
     "@babel/plugin-transform-runtime": "^7.23.2",
     "@babel/preset-typescript": "^7.22.5",
     "@parcel/packager-raw-url": "2.10.0",
