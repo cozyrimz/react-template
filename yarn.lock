@@ -3634,10 +3634,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
-"@types/node-sass@^4.11.6":
-  version "4.11.6"
-  resolved "https://registry.yarnpkg.com/@types/node-sass/-/node-sass-4.11.6.tgz#adb2f6e5486230049c4651de69709b3f16065ab1"
-  integrity sha512-Qkf5Fs9zzsXchenUY7oVdIHyv8FtPgqIXqOJzhh3FDqpYjqvc/gtZ3hlZVFmKQhl7wyI4+WkRbYufYC5pfY7iw==
+"@types/node-sass@^4.11.7":
+  version "4.11.7"
+  resolved "https://registry.yarnpkg.com/@types/node-sass/-/node-sass-4.11.7.tgz#ed60499f596a90e9ab27bf2ca0b68ac3e914ae6f"
+  integrity sha512-QY0sXZGPRzJ2obo66f9zB6S0Uo9PRdcoPKPbyftSoKXub90s4ut/JK3fYHOqmhYhRRVEB3P5o5rEnq2/bWBdeg==
   dependencies:
     "@types/node" "*"
 
